@@ -28,7 +28,7 @@ RUN chmod +x /start.sh
 
 # ports and volumes
 VOLUME /config
-EXPOSE 3579
+EXPOSE 35799
 
 WORKDIR /config
 
