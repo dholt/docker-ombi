@@ -44,4 +44,4 @@ chown -R ombi:ombi /app
 chown -R ombi:ombi /config
 
 cd /app/Ombi
-exec s6-setuidgid ombi /app/Ombi/Ombi --storage "/config" --host http://*:3579 ${RUN_OPTS}
+exec s6-setuidgid ombi /app/Ombi/Ombi --storage "/config" --host http://*:35799 ${RUN_OPTS}
